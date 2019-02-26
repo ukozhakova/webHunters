@@ -1,5 +1,5 @@
 # webHunters
-Our **Buiyr** online app helps the restaurant business to improve their service by making an order online on simple table using **QR codes**.
+Our **Scan&Eat** online app helps the restaurant business to improve their service by making an order online on simple table using **QR codes**.
 The functionalities of the web site are as below:
 
 * Make order online without waiting waiters

@@ -1,0 +1,136 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+body {
+  font-family: Comic Sans MS;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.page {
+  background: url(images/bg-01.jpg);
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.container {
+  margin: 0 auto;
+  
+}
+
+.content {
+  position: relative;
+  top: 50px;
+  border: none;
+  width: 600px;
+  height: 520px;
+  background: #f5ac26;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white;
+}
+.tabs {
+  /*display: flex;
+  flex-direction: row;*/
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  /*width: 260px;*/
+  text-align: center;
+  padding: 40px;
+  
+}
+.login:hover {
+  background: linear-gradient(45deg, #00dbde, #fc00ff) ;
+}
+.signup:hover {
+  background: linear-gradient(45deg, #00dbde, #fc00ff) ;
+}
+.login {
+  background: rgba(255,255,255,0.5);
+  padding: 10px 50px;
+  width: 260px;
+
+}
+.signup {
+  background: rgba(210,30,83,0.5);
+  padding: 10px 50px;
+  width: 260px;
+}
+.title h1 {
+  padding-left: 210px;
+  color: white;
+  font-weight: normal;
+}
+.form {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+::placeholder {
+  color: #fff;
+  font-family: Comic Sans MS;
+}
+.info {
+  background: #de4b4b;
+  border: 1px solid #c1bdba;
+  font-size: 22px;
+  color: white;
+  width: 240px;
+  padding: 5px 10px;
+  outline-color: #fc00ff;
+}
+.name {
+  background: #55847d;
+  border: 1px solid #c1bdba;
+  font-size: 22px;
+  color: white;
+  width: 240px;
+  padding: 5px 10px;
+}
+.surname {
+  background: #55847d;
+  border: 1px solid #c1bdba;
+  font-size: 22px;
+  color: white;
+  width: 240px;
+  padding: 5px 10px;
+}
+
+.email {
+  width: 500px;
+
+}
+.password {
+  width: 500px;
+  margin-top: 40px;
+}
+.message {
+  width: 500px;
+  margin-top: 40px;
+  height: 85px;
+}
+.join {
+  width: 500px;
+  margin-top: 40px;
+  background: #de4b4b;
+  border: 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 10px;
+}
+.join:hover {
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  color: #de4b4b;
+}
+
+
+
+
